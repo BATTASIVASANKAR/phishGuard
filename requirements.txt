@@ -6,3 +6,4 @@ beautifulsoup4
 tldextract
 joblib
 numpy
+gunicorn
