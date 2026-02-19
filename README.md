@@ -57,7 +57,14 @@ Open `http://localhost:5000` in your browser.
 4. **IP instead of Domain**: Classic phishing technique.
 5. **HTTPS**: Checks for secure connection (though many phishing sites now use it).
 6. **Keywords**: Scans for "login", "verify", "secure", etc.
-7. **Path/Query Length**: Complex obfuscated paths.
+
+    ## 📸 Screenshots
+
+![Dashboard](screenshots/Screenshot_2026_02_19_120639.png)
+![Scan](screenshots/Screenshot_2026_02_19_120819.png)
+![Result](screenshots/Screenshot_2026_02_19_120852.png)
+8. **Path/Query Length**: Complex obfuscated paths.
 
 ## Disclaimer
 This tool is for educational purposes. Always use official and verified links when entering sensitive information.
+
