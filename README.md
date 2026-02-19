@@ -63,8 +63,9 @@ Open `http://localhost:5000` in your browser.
 This tool is for educational purposes. Always use official and verified links when entering sensitive information.
 ## 📸 Screenshots
 
-![Dashboard](screenshots/Screenshot%202026-02-19%20120639.png)
-![Scan](screenshots/Screenshot%202026-02-19%20120819.png)
-![Result](screenshots/Screenshot%202026-02-19%20120852.png)
+![Dashboard](screeenshots/Screenshot%202026-02-19%20120639.png)
+![Scan](screeenshots/Screenshot%202026-02-19%20120819.png)
+![Result](screeenshots/Screenshot%202026-02-19%20120852.png)
+
 
 
