@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="PhishGuard — AI-powered phishing detection tool for URLs and emails. Protect yourself from cyber threats.">
+    <title>PhishGuard — Phishing Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- Navigation -->
+        <nav class="navbar fade-in-up">
+            <a href="/" class="navbar-brand">
+                <span class="shield-icon">🛡️</span>
+                PhishGuard
+            </a>
+            <ul class="navbar-links">
+                <li><a href="/" class="active">Home</a></li>
+                <li><a href="/url-scanner">URL Scanner</a></li>
+                <li><a href="/email-scanner">Email Scanner</a></li>
+                <li><a href="/help">Help</a></li>
+            </ul>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero fade-in-up fade-in-up-delay-1">
+            <div class="hero-badge">
+                <span class="pulse-dot"></span>
+                AI-Powered Protection
+            </div>
+            <h1>PhishGuard</h1>
+            <p>Advanced AI-driven phishing detection for URLs and emails. Stay one step ahead of cyber threats with
+                real-time analysis powered by machine learning.</p>
+        </section>
+
+        <!-- Stats Bar -->
+        <div class="stats-bar fade-in-up fade-in-up-delay-2">
+            <div class="stat-item">
+                <div class="stat-value">🔗</div>
+                <div class="stat-label">URL Scanning</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value">📧</div>
+                <div class="stat-label">Email Analysis</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-value">🤖</div>
+                <div class="stat-label">ML Powered</div>
+            </div>
+        </div>
+
+        <!-- Homepage Navigation Cards -->
+        <div class="home-cards fade-in-up fade-in-up-delay-3">
+            <a href="/url-scanner" class="home-card" id="card-url-scanner">
+                <div class="home-card-icon url-glow">🔗</div>
+                <div class="home-card-title">Scan Website URL</div>
+                <div class="home-card-desc">Analyze any URL for phishing threats using our machine learning model. Paste
+                    a link and get instant results.</div>
+                <div class="home-card-arrow">→</div>
+            </a>
+            <a href="/email-scanner" class="home-card" id="card-email-scanner">
+                <div class="home-card-icon email-glow">📧</div>
+                <div class="home-card-title">Scan Email Content</div>
+                <div class="home-card-desc">Paste suspicious email content to detect phishing attempts using heuristic
+                    analysis and pattern matching.</div>
+                <div class="home-card-arrow">→</div>
+            </a>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer fade-in-up fade-in-up-delay-4">
+            <p>Developed by Siva Sankar &ndash; PhishGuard Security Tool</p>
+            <p style="margin-top: 0.3rem;">For educational and cybersecurity awareness purposes only.</p>
+        </footer>
+
+    </div>
+</body>
+
+</html>
