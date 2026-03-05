@@ -619,7 +619,7 @@ if __name__ == '__main__':
     app.run(host='0.0.0.0', port=port)
 
     """Render the help page."""
-        return render_template('help.html')
+    return render_template('help.html')
 
 
 # ── Run ──────────────────────────────────────────────────────────────────────
@@ -627,5 +627,6 @@ if __name__ == '__main__':
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
     app.run(host='0.0.0.0', port=port)
+
 
 
